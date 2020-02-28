@@ -2,18 +2,56 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+  <title>kochen</title>
 </head>
 
 <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -56,42 +94,58 @@
   
   
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
     
-      <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+    <div class="container">
+      <p class="row">
+        <img src="https://www.50bestchefs.de/wp-content/uploads/sites/2/2019/09/saul_andreas.jpg" class="col-lg-4"
+          data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+          aria-controls="multiCollapseExample1" alt="...">
+        <img src="https://www.50bestchefs.de/wp-content/uploads/sites/2/2017/09/traubetonbach-320x320.jpg"
+          class="col-lg-4" class="btn btn-primary" type="button" data-toggle="collapse"
+          data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" alt="...">
+        <img
+          src="https://www.50bestchefs.de/wp-content/uploads/sites/2/2016/11/jelena_moro-tohru_nakamura-geisels_werneckhof_jmo7199-17_portrait-320x320.jpg"
+          class="col-lg-4" class="btn btn-primary" type="button" data-toggle="collapse"
+          data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" alt="...">
+      </p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body text-white shadow p-3 mb-5 bg-dark rounded ">
+              <h1>Andreas Saul</h1>
+                <h5>Bandol sur Mer </h5>
+                <h5>Torstr. 167, 10178 Berlin </h5>
+                <p>Tattoos, Piercings in Personalunion mit einem Faible für Gänseleber, Nouvelle Cuisine und filigrane
+                  Anrichtetechnik. Ein respektabler Vertreter der gehobenen Küche in Military-Baggy-Hosen und schwarzem
+                  T-Shirt. Das kneift sich? Stimmt. Ist aber egal, weil es Andreas und seine Jungs Robert und Dominik
+                  sowieso nicht interessiert, was die anderen über sie denken.</p>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="collapse multi-collapse " id="multiCollapseExample2">
+            <div class="card card-body  text-white shadow p-3 mb-5 bg-dark rounded  ">
+              <h1>Torsten Michel</h1>
+              <h5>Schwarzwaldstube Traube Tonbach</h5>
+              <h6>Tonbachstraße 237, 72270 Baiersbronn-Tonbach</h6>
+                <p>„Man muss sich als Koch für alles begeistern können“, lautet das Credo von Torsten Michel. Der gebürtige Dresdner ist schon seit 2004 in der legendären Schwarzwaldstube Traube Tonbach zuhause und führt nun das anspruchsvolle Erbe Harald Wohlfahrts als Küchenchef fort: Seit über 25 Jahren hält die berühmte Schwarzwaldstube die Höchstbewertung von drei Michelin-Sternen. Seine französische Haute Cuisine erfuhr während Praktika bei Größen wie Heston Blumenthal, René Redzepi und Jean-Georges Klein ihren Feinschliff.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="card card-body text-white shadow p-3 mb-5 bg-dark rounded ">
+              <h1>Tohru Nakamura</h1>
+              <h5>Geisels Werneckhof</h5>
+              <h6>Werneckstr. 11, 80802 München</h6>
+                <p>Im traditionsreichen Geisels Werneckhof hat Tohru Nakamura eine viel beachtete kulinarische Zeitenwende eingeläutet. Der Purist und Aromen-Virtuose begeistert mit einer saisonal inspirierten eurasischen Küche und verbindet in München die europäische und japanische Kochkunst wie kaum ein anderer.</p>
+  
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-
+    </div>
+    </div>
 
 
 
