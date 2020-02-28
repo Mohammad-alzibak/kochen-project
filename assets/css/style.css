@@ -1,6 +1,9 @@
+body {
+    background-color: #ededed;
+}
 section{
     height: 100vh;
-    background: url(../img/adam2.jpeg) center/cover no-repeat;
+    background: url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80) center/cover no-repeat;
 }
 
 section a:link, a:visited {
