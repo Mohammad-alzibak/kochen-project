@@ -1,0 +1,19 @@
+footer{
+   
+    background-color: #1d2c2f ;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Work Sans' ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+   
+}
+footer ul li{
+    padding-right: 10px;
+}
+footer a{
+   color: #fff;
+}
