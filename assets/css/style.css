@@ -17,3 +17,21 @@ footer ul li{
 footer a{
    color: #fff;
 }
+section{
+    height: 100vh;
+    background: url(../img/adam2.jpeg) center/cover no-repeat;
+}
+
+section a:link, a:visited {
+    background-color: #f8f2f23a;
+    color: rgba(2, 2, 2, 0.514);
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    font-size: 23px;
+  }
+  section div{
+      text-align: center;
+  }
