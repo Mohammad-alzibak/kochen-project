@@ -1,7 +1,7 @@
 body {
     background-color: #ededed;
 }
-section{
+.d-flex{
     height: 100vh;
     background: url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80) center/cover no-repeat;
 }
@@ -19,3 +19,89 @@ section a:link, a:visited {
   section div{
       text-align: center;
   }
+  .fifth-section {
+
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2e2e2e;
+    ;
+}
+
+.fifth-section article {
+    width: 40%;
+    color: #fff;
+}
+
+.fifth-section article h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.fifth-section article p {
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'Work Sans';
+    padding-bottom: 20px;
+}
+
+.fifth-section article p span {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.fifth-section article:nth-child(2) form label {
+    font-size: 1.5em;
+}
+
+.fifth-section article:nth-child(2) form input[type=text] {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.fifth-section article:nth-child(2) form input[type=email] {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.fifth-section article:nth-child(2) form textarea {
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.fifth-section article:nth-child(2) form input[type=submit] {
+    background-color: rgba(217, 238, 218, 0.692);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #1d2c2f;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 20px;
+}
